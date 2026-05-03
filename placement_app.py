@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load trained model
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('placement.pkl', 'rb'))
 
 # Page title
 st.set_page_config(page_title="Placement Prediction System")
